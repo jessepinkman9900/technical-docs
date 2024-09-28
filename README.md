@@ -29,3 +29,10 @@ poetry run mkdocs gh-deploy
 - github actions
     - set the `GLOBAL_PASSWORD` environment variable in GitHub secrets for github actions to use
     - give workflow "read & write permisions" in repository settings
+- password protection is done with mkdocs-encryptcontent plugin
+    - default password is `pwd`
+    - change the password by setting the `GLOBAL_PASSWORD` environment variable in GitHub secrets
+- embedded github discussions is done with [gicus](https://giscus.app/)i
+    - enable discussions on the repo. install giscus app on the repo
+    - create config & update `overrides/partials/comments.html`
+    - header in markdown file used for fetching relavant discussions. like [here](./docs/applications/application-template/feature-template/README.md)

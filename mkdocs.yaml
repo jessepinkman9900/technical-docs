@@ -92,3 +92,5 @@ extra_javascript:
 
 nav:
   - Home: README.md
+  - Applications:
+    - Application 1: applications/application-template/README.md
