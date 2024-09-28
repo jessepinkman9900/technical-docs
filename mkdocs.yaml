@@ -40,12 +40,13 @@ theme:
 
 plugins:
   - search
-  - encryptcontent:
-      summary: 'Docs are password protected'
-      encryption_info_message: 'default password is "pwd". change it by setting the `GLOBAL_PASSWORD` environment variable in env variables in github actions'
-      global_password: !ENV [GLOBAL_PASSWORD, pwd]
-      remember_password: true
-      remember_keys: true
+  ## uncomment to enable password protection
+  # - encryptcontent:
+  #     summary: 'Docs are password protected'
+  #     encryption_info_message: 'default password is "pwd". change it by setting the `GLOBAL_PASSWORD` environment variable in env variables in github actions'
+  #     global_password: !ENV [GLOBAL_PASSWORD, pwd]
+  #     remember_password: true
+  #     remember_keys: true
   - enumerate-headings:
       increment_across_pages: false
   - glightbox
