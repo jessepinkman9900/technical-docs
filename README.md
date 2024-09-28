@@ -32,7 +32,7 @@ poetry run mkdocs gh-deploy
 - password protection is done with mkdocs-encryptcontent plugin
     - default password is `pwd`
     - change the password by setting the `GLOBAL_PASSWORD` environment variable in GitHub secrets
-- embedded github discussions is done with [gicus](https://giscus.app/)i
+- embedded github discussions is done with [gicus](https://giscus.app/)
     - enable discussions on the repo. install giscus app on the repo
     - create config & update `overrides/partials/comments.html`
     - header in markdown file used for fetching relavant discussions. like [here](./docs/applications/application-template/feature-template/README.md)
