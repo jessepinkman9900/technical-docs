@@ -1,6 +1,6 @@
 # technical-docs
 ![Static Badge](https://img.shields.io/badge/python-3.12-brightgreen)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/jessepinkman9900/technical-docs/deploy.yaml)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/jessepinkman9900/technical-docs/deploy.yaml?branch=main&label=gh-deploy)
 
 ## Development
 ```sh
