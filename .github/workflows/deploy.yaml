@@ -1,0 +1,27 @@
+name: Deploy - Documentation using MkDocs
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build and Deploy Documentation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.2'
+
+      - uses: abatilo/actions-poetry@v2
+        with:
+          poetry-version: 1.7.1
+
+      - name: Install dependencies & deploy
+        env:
+          GLOBAL_PASSWORD: ${{ secrets.GLOBAL_PASSWORD }}
+        run: |
+          poetry install
+          poetry run mkdocs gh-deploy --force --clean --verbose
