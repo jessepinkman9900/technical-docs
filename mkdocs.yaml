@@ -46,12 +46,10 @@ plugins:
       global_password: !ENV [GLOBAL_PASSWORD, pwd]
       remember_password: true
       remember_keys: true
-  - glightbox
-  - swagger-ui-tag
   - enumerate-headings:
       increment_across_pages: false
-      exclude:
-        - index.md
+  - glightbox
+  - swagger-ui-tag
   - git-revision-date-localized:
       enable_creation_date: true
 
