@@ -13,7 +13,7 @@ comments: true
 - [Point Estimate]()
 
 ## API Specification
-- [YAML](./docs/api-v1.yaml)
+- [YAML](./api-v1.yaml)
 
 <swagger-ui src="./api-v1.yaml" />
 
@@ -26,7 +26,6 @@ comments: true
 
 ## Services
 
-
 ## Feature Flows
 ### Feature 1
 #### Sequence Diagram
@@ -35,9 +34,7 @@ comments: true
 ## Implementation Details
 
 ### Software Design
-### Spring Implementation
-#### Application Package Structure
-
+### Code Implementation
 
 ### Resiliency Specification
 // todo
@@ -62,7 +59,7 @@ comments: true
 
 ## 3rd Party API
 ### Docs
-- [Gateway API]()
+- [API Reference]()
 
 ### Integration
 // todo
