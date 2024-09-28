@@ -3,6 +3,7 @@
 ## Development
 ```sh
 poetry install
+poetry run pre-commit install
 cp .env.example .env # edit the .env file with your own values
 ```
 
@@ -11,6 +12,10 @@ set -a
 source .env
 set +a
 poetry run mkdocs serve
+```
+
+```sh
+poetry run pre-commit run --all-files
 ```
 
 ## Deployment
