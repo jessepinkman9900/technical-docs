@@ -42,6 +42,8 @@ plugins:
   - search
   - encryptcontent:
       global_password: !ENV [GLOBAL_PASSWORD, pwd]
+      summary: 'Docs are password protected'
+      encryption_info_message: 'default password is "pwd". change it by setting the `GLOBAL_PASSWORD` environment variable in env variables in github actions'
   - glightbox
   - swagger-ui-tag
   - enumerate-headings:
