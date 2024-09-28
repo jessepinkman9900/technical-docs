@@ -24,4 +24,6 @@ poetry run mkdocs gh-deploy
 ```
 
 - edit `docs/CNAME` to point to your own domain if you have one
-- set the `GLOBAL_PASSWORD` environment variable in GitHub secrets for github actions to use
+- github actions
+    - set the `GLOBAL_PASSWORD` environment variable in GitHub secrets for github actions to use
+    - give workflow "read & write permisions" in repository settings
