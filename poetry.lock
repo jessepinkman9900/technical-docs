@@ -905,13 +905,13 @@ type = ["mypy (>=1.11.2)"]
 
 [[package]]
 name = "pre-commit"
-version = "4.0.1"
+version = "4.1.0"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "pre_commit-4.0.1-py2.py3-none-any.whl", hash = "sha256:efde913840816312445dc98787724647c65473daefe420785f885e8ed9a06878"},
-    {file = "pre_commit-4.0.1.tar.gz", hash = "sha256:80905ac375958c0444c65e9cebebd948b3cdb518f335a091a670a89d652139d2"},
+    {file = "pre_commit-4.1.0-py2.py3-none-any.whl", hash = "sha256:d29e7cb346295bcc1cc75fc3e92e343495e3ea0196c9ec6ba53f49f10ab6ae7b"},
+    {file = "pre_commit-4.1.0.tar.gz", hash = "sha256:ae3f018575a588e30dfddfab9a05448bfbd6b73d78709617b5a2b853549716d4"},
 ]
 
 [package.dependencies]
@@ -1433,4 +1433,4 @@ itermate = "1.0.2"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "8a2c881e08e1e983b751633d9930310010e6e8e19a52b5af135f830cc65b523a"
+content-hash = "b849ee7eb21b7c13419eac45d4ee8c296ec2ec5f40e4d72b2eb0c79429597e18"
